@@ -1,0 +1,92 @@
+  
+@import url('https://fonts.google.com/specimen/Poppins');
+
+:root {
+    --primary-color: #eb4d4b;
+    --primary-dark: #0D1117;
+    --dark-grey: #374151;
+    --off-white: #F3F4F6;
+}
+
+* {
+    box-sizing: border-box;
+    letter-spacing: 0.05rem;
+}
+
+body {
+    font-family: 'Specimen', sans-serif;
+    margin: 0;
+};
+
+hr {
+    margin: 0rem 3rem;
+    padding: 1rem 0rem;
+}
+
+.hero {
+    padding: 2rem;
+}
+
+.detail {
+    padding-top: 0.5rem;
+    padding-left: 0;
+}
+
+.app-title {
+    padding: 0;
+    margin: 0;
+}
+
+/* section */
+
+.section {
+    padding: 2rem 1rem;
+    max-width: 700px;
+    margin: auto;
+}
+
+/* container */
+.container {
+    padding: 0rem 1rem;
+}
+
+.container-center {
+    max-width: 600px;
+    margin: auto;
+}
+
+/* links */
+
+.links {
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+.primary-link {
+    background-color: var(--primary-color);
+    color: var(--primary-dark);
+    border-radius: 0.5rem;
+}
+
+.secondary-link {
+    background-color: #ffffff;
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 0.1rem solid var(--primary-color);
+}
+
+.text-link {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+/* lists */
+
+.list-non-bullet {
+    list-style: none;    
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
